@@ -1,0 +1,122 @@
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Контакти</title>
+    </head>
+<body>
+<header>
+        <article class="frt">    
+            <nav>  
+                <a href="" class="booga">Головна</a> 
+                <input placeholder="Шукати">
+                <a href="">Контакти</a> 
+                <a href="">Як купити</a> 
+        </nav>
+        </article>
+        </header>
+<main>
+    <h1>Як Купити</h1>
+    <p>Купити можна<br/> через соц-мережі<br/> такі як телеграм та інстаграм.<br/>В інстаграмі є фото чи відео екземплярів<br/>Наші соц-мережі можно побачити<br/> в підвалі сайту<br/> а більш розширено в контактах</p>
+    <div class="romd">
+                <h4>Акція</h4>
+                <ul>
+                    <li>-50% на меблі</li>
+                    <li>-50% на техніку</li>
+                    <li>-50% на одяг</li>
+                    <li>-35% на іграшки лего</li>
+                    <li>-20% на продукцію найк</li> 
+                    <li>-15% на продукцію адідас</li>
+                    <li>-15% на продукцію пума</li>
+                </ul>
+            </div>
+
+       <style>
+       body {
+    font-family: sans-serif;
+    background-color: chartreuse;
+}
+.booga{
+    float: left;
+}
+input{
+    float: right;
+    padding: 5px;
+    margin: 10px;
+}
+
+a{
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+    color: green;
+    margin: 10px;
+    border: 2px solid green;
+    border-radius: 30px;
+    
+}
+a:hover{
+      background-color: green;
+      color: black;
+}
+.frt{
+    position: absolute;
+    background-color: black;
+    width: 1050px;
+    border-radius: 30px;
+    padding: 5px;
+    
+}
+h1{
+    position:absolute;
+    top: 100px;
+    right: 700px;
+}
+p{
+    position: absolute;
+    top: 250px;
+    right: 700px;
+
+
+
+
+}
+.romd{
+    position:absolute;
+    left: 650px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    top: 150px;
+
+
+}
+div{
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgb(220, 220, 220);
+    padding: 10px;
+}
+div:hover{
+   transform: scale(1.1);
+
+}
+footer{
+    position: absolute;
+    bottom: 30px;
+    background-color: rgb(80, 146, 15);
+    height: 50px;
+    border-radius: 30px;
+    padding: 10px;
+    float: right;
+}
+
+
+
+       </style>
+</main>
+
+     <footer>~2023-Найкращий інтернет магазин для вас<br/>телеграм:@psevo<br/>інстаграм:Random.it</footer> 
+
+</body>
+</html>
+
