@@ -1,0 +1,63 @@
+<html>
+    <head><title></title></head>
+    <body>
+<header>
+        <article class="frt">    
+            <nav>  
+                <a href="" class="booga">Головна</a> 
+                <input placeholder="Шукати">
+                <a href="">Контакти</a> 
+                <a href="">Як купити</a> 
+                <a href="">Асортимент</a>
+        </nav>
+        </article>
+        </header>
+        <main>
+            <h1>Меблі</h1>
+            <h4>Стільці</h4><h4>столи</h4> <h4>дивани кроваті</h4>
+            <style>
+            body {
+    font-family: sans-serif;
+    background-color: chartreuse;
+}
+.frt{
+    position: absolute;
+    background-color: black;
+    width: 1050px;
+    border-radius: 30px;
+    padding: 5px;
+}
+.booga{
+    float: left;
+}
+input{
+    float: right;
+    padding: 5px;
+    margin: 10px;
+}
+
+a{
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+    color: green;
+    margin: 10px;
+    border: 2px solid green;
+    border-radius: 30px;
+    
+}
+a:hover{
+      background-color: green;
+      color: black;
+} 
+h1{
+    position: absolute;
+    top: 100px;
+    right: 500px;
+}   
+
+
+            </style>
+        </main>
+    </body>
+</html>
